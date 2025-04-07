@@ -82,8 +82,7 @@ Profile-Analyzer-/
 <h2>✨ Sample Use Case</h2>
 <p>A developer visits the app → Inputs GitHub and LinkedIn profile links → Scraper fetches data → AI generates recommendations → User views their evaluation and personalized insights.</p>
 
-<h2>📸 Screenshots</h2>
-<p><em>(Add UI screenshots here)</em></p>
+
 
 <h2>🧑‍💻 Contributing</h2>
 <ol>
@@ -96,26 +95,4 @@ Profile-Analyzer-/
 
 <h2>📄 License</h2>
 <p>This project is licensed under the <strong>MIT License</strong>.</p>
-<pre><code>
-MIT License
-
-Copyright (c) 2025 harshKhulbe07
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-</code></pre>
-
-<hr />
-
 <p>Created with ❤️ for the <strong>Dev Heat Hackathon</strong> 🚀</p>
