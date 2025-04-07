@@ -1,16 +1,56 @@
-<h1>Profile Analyzer</h1>
+<h1>🚀 AI-Powered Digital Profile Analyzer</h1>
 
-<p><strong>Profile Analyzer</strong> is an AI-powered web application designed to evaluate digital profiles across platforms like GitHub, LinkedIn, and coding sites such as LeetCode and Codeforces. It scrapes publicly available data and provides actionable insights and recommendations to help developers improve their online presence.</p>
+<p><strong>Profile Analyzer</strong> is an AI-powered web app that analyzes developer profiles across platforms like GitHub, LinkedIn, LeetCode, and Codeforces. It scrapes publicly available data and provides actionable insights using AI to help developers enhance their digital presence.</p>
 
-<h2>🚀 Features</h2>
+<h2>🎯 Scope of the Project</h2>
 <ul>
-  <li>🔍 <strong>LinkedIn Scraper</strong> – Extracts follower count and profile summary.</li>
-  <li>🐙 <strong>GitHub Analyzer</strong> – Retrieves repo statistics, contributions, languages used, etc.</li>
-  <li>🧠 <strong>AI-Powered Suggestions</strong> – Gives custom feedback based on platform stats.</li>
-  <li>💻 <strong>Frontend</strong> – Clean, interactive UI built with React.</li>
-  <li>🔗 <strong>Backend</strong> – Node.js/Express API integration.</li>
-  <li>📊 <strong>Data Visualization</strong> – Graphs and metrics for better profile insights.</li>
+  <li>Evaluate and visualize GitHub and LinkedIn profile data.</li>
+  <li>Scrape competitive programming platform statistics.</li>
+  <li>Provide AI-based personalized suggestions to improve profiles.</li>
+  <li>Help developers create a stronger presence for job hunting or networking.</li>
 </ul>
+
+<h2>⚙️ Features</h2>
+<ul>
+  <li>🔍 LinkedIn Scraper – Follower count, profile highlights.</li>
+  <li>🐙 GitHub Analyzer – Repositories, stars, forks, languages.</li>
+  <li>📈 LeetCode & Codeforces stats – Problems solved, rating, contests.</li>
+  <li>🧠 AI-Powered Recommendations – Actionable improvement tips using OpenAI/Gemini.</li>
+  <li>💻 User-friendly Frontend – Interactive and clean UI with React.</li>
+  <li>🧪 Real-time Insights – Live scraping and profile summary generation.</li>
+</ul>
+
+<h2>📦 Prerequisites</h2>
+<ul>
+  <li><strong>Node.js</strong> (v14+)</li>
+  <li><strong>npm</strong> (comes with Node)</li>
+  <li><strong>OpenAI API Key</strong> (for recommendations)</li>
+  <li>Optional: Codeforces/LeetCode public profile links</li>
+</ul>
+
+<h2>🧪 Getting Started</h2>
+<ol>
+  <li><strong>Clone the Repository</strong>
+    <pre><code class="bash">git clone https://github.com/harshKhulbe07/Profile-Analyzer-.git
+cd Profile-Analyzer-</code></pre>
+  </li>
+  <li><strong>Install Backend Dependencies</strong>
+    <pre><code class="bash">cd backend
+npm install
+npm start</code></pre>
+    <p>Backend will run on: <code>http://localhost:5000</code></p>
+  </li>
+  <li><strong>Install Frontend Dependencies</strong> (in a new terminal tab):
+    <pre><code class="bash">cd frontend
+npm install
+npm start</code></pre>
+    <p>Frontend will run on: <code>http://localhost:3000</code></p>
+  </li>
+  <li><strong>Add Environment Variables</strong> in <code>backend/.env</code>:
+    <pre><code>PORT=5000
+OPENAI_API_KEY=your_api_key_here</code></pre>
+  </li>
+</ol>
 
 <h2>🧱 Project Structure</h2>
 <pre><code>
@@ -33,57 +73,49 @@ Profile-Analyzer-/
 <h2>🛠️ Tech Stack</h2>
 <ul>
   <li><strong>Frontend:</strong> React, Tailwind CSS, Axios</li>
-  <li><strong>Backend:</strong> Node.js, Express, Cheerio, Puppeteer</li>
-  <li><strong>Scraping:</strong> Puppeteer, Cheerio (for LinkedIn and GitHub)</li>
-  <li><strong>AI Integration:</strong> ChatGPT/Gemini API (planned)</li>
+  <li><strong>Backend:</strong> Node.js, Express, Puppeteer, Cheerio</li>
+  <li><strong>Scraping:</strong> Puppeteer (LinkedIn), Cheerio (GitHub)</li>
+  <li><strong>AI:</strong> OpenAI API / Gemini (planned)</li>
   <li><strong>Version Control:</strong> Git & GitHub</li>
 </ul>
 
-<h2>🧪 Getting Started</h2>
-<p>Follow these steps to run the project locally:</p>
-
-<h3>1. Clone the Repository</h3>
-<pre><code class="bash">git clone https://github.com/harshKhulbe07/Profile-Analyzer-.git
-cd Profile-Analyzer-</code></pre>
-
-<h3>2. Set Up the Backend</h3>
-<pre><code class="bash">cd backend
-npm install
-npm start</code></pre>
-<p>The backend server will run on: <code>http://localhost:5000</code></p>
-
-<h3>3. Set Up the Frontend</h3>
-<p>Open a new terminal tab or window:</p>
-<pre><code class="bash">cd frontend
-npm install
-npm start</code></pre>
-<p>The frontend React app will run on: <code>http://localhost:3000</code></p>
-
-<h3>4. Add Environment Variables</h3>
-<p>Create a <code>.env</code> file inside the <code>backend/</code> directory with the following content:</p>
-<pre><code>PORT=5000
-OPENAI_API_KEY=your_api_key_here</code></pre>
-
 <h2>✨ Sample Use Case</h2>
-<p>A developer logs in → Enters GitHub and LinkedIn profile → Backend scrapes data → AI analyzes the data → Frontend displays profile evaluation and suggestions.</p>
+<p>A developer visits the app → Inputs GitHub and LinkedIn profile links → Scraper fetches data → AI generates recommendations → User views their evaluation and personalized insights.</p>
 
 <h2>📸 Screenshots</h2>
-<p><em>(Add screenshots of the UI here)</em></p>
+<p><em>(Add UI screenshots here)</em></p>
 
 <h2>🧑‍💻 Contributing</h2>
-<p>We welcome contributions!</p>
 <ol>
   <li>Fork the repo</li>
-  <li>Create a new branch: <code>git checkout -b feature-branch</code></li>
-  <li>Commit your changes: <code>git commit -m "Feature added"</code></li>
-  <li>Push to the branch: <code>git push origin feature-branch</code></li>
-  <li>Open a pull request</li>
+  <li>Create a branch: <code>git checkout -b feature-name</code></li>
+  <li>Commit changes: <code>git commit -m "add new feature"</code></li>
+  <li>Push to your fork: <code>git push origin feature-name</code></li>
+  <li>Submit a Pull Request</li>
 </ol>
 
 <h2>📄 License</h2>
-<p>MIT License</p>
+<p>This project is licensed under the <strong>MIT License</strong>.</p>
+<pre><code>
+MIT License
+
+Copyright (c) 2025 harshKhulbe07
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+</code></pre>
 
 <hr />
 
-<p>Created with ❤️ for the Dev Heat Hackathon 🚀</p>
-
+<p>Created with ❤️ for the <strong>Dev Heat Hackathon</strong> 🚀</p>
